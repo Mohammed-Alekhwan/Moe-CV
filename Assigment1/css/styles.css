@@ -653,3 +653,129 @@ footer img {
     transform: translateX(-50%);
   }
 }
+
+
+@media only screen and (max-width: 400px){
+  .wrapper {
+    margin: 0;
+  }
+  
+
+  .nav-logo {
+    font-size: 1em;
+  }
+  .nav-links {
+    width: 100%;
+    justify-content: space-around;
+    font-size: 0.8em;
+  }
+
+  header {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .right-a{
+    padding: 1% 2.5%;
+  }
+
+  .works {
+    width: 100%;
+  }
+
+  .hire {
+    font-size: 1em;
+    width: 80px;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    font-size: 0.9em;
+  }
+
+  .largefont {
+    font-size: 1em;
+  }
+
+  .links {
+    width: 100%;
+    display: block;
+  }
+
+  footer a {
+    display: inline-flex;
+  }
+
+  footer img {
+    margin-right: 3%;
+    width: 20px;
+  }
+
+  .education {
+    display: block;
+  }
+  .education article {
+    margin: 20px auto;
+    max-width: 300px;
+    padding: 70px 0px;
+    font-size: 1em;
+  }
+
+  .hide {
+    display: none;
+  }
+  .main-skills {
+    justify-content: left;
+  }
+  .main-skills img {
+    width: 64px;
+  }
+
+  .progress-margin {
+    width: 240px;
+    height: 60px;
+  }
+
+  .progress-first {
+    margin-top: calc(60px - 32px);
+  }
+
+  .second-progress {
+    margin-top: 30px;
+  }
+
+  .third-progress {
+    margin-top: 30px;
+  }
+
+  .forth-progress {
+    margin-top: 25px;
+  }
+
+  .projects-container{
+    display: block;
+    font-size: 1em;
+    height: 1000px;
+    width: 90%;
+
+  }
+
+  .slider-container1{
+    text-align: center;
+    width: 100%;
+  }
+  
+  
+  .slider-container2 p{
+    width: 100%;  
+  }
+  
+  .slider-container2{
+    margin-top: 40px;
+    text-align: center;
+    width: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+}
