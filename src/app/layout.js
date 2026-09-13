@@ -3,13 +3,13 @@ import "../projects.css";
 
 export const metadata = {
   metadataBase: new URL("https://mohammed-alekhwan.github.io/Moe-CV/"),
-  title: "Moe — Software Engineer & Creative Thinker",
+  title: "Mohammed Alekhwan | Software Engineer",
   description:
     "Mohammed Alekhwan — software engineer with an eye for design. Explore thoughtful interfaces, application projects, and an interactive creative playground.",
   alternates: { canonical: "https://mohammed-alekhwan.github.io/Moe-CV/" },
   icons: { icon: "/Moe-CV/favicon.svg" },
   openGraph: {
-    title: "Moe — Code with purpose. Design with personality.",
+    title: "Mohammed Alekhwan | Software Engineer",
     description:
       "The portfolio of Mohammed Alekhwan. Software engineering, thoughtful interfaces, and a little creative curiosity.",
     type: "website",

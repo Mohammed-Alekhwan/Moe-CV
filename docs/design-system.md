@@ -1,4 +1,4 @@
-# Moe / visual direction
+# Mohammed Alekhwan / visual direction
 
 ## Reference and interpretation
 

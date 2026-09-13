@@ -56,7 +56,7 @@ export function initializePortfolio() {
   const motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
   let savedPause = false;
   try {
-    savedPause = localStorage.getItem("moe-motion-paused") === "true";
+    savedPause = localStorage.getItem("portfolio-motion-paused") === "true";
   } catch {
     /* Storage is optional. */
   }
@@ -119,7 +119,7 @@ export function initializePortfolio() {
     motionPaused = !motionPaused;
     savedPause = motionPaused;
     try {
-      localStorage.setItem("moe-motion-paused", String(motionPaused));
+      localStorage.setItem("portfolio-motion-paused", String(motionPaused));
     } catch {
       /* Storage is optional. */
     }

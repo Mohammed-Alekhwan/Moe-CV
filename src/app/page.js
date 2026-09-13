@@ -11,8 +11,13 @@ export default function Home() {
       </a>
       <div className="scroll-progress" aria-hidden="true"></div>
       <header className="header">
-        <a className="wordmark" href="#home" aria-label="Moe, back to home">
-          moe<span className="logo-star">✳</span>
+        <a
+          className="wordmark"
+          href="#home"
+          aria-label="Mohammed Alekhwan, back to home"
+        >
+          <span>Mohammed</span>
+          <span>Alekhwan</span>
         </a>
         <nav className="desktop-nav" aria-label="Main navigation">
           <a href="#work">
@@ -76,9 +81,7 @@ export default function Home() {
           </div>
           <div className="hero-body">
             <div className="hero-copy">
-              <p className="eyebrow hero-intro">
-                SOFTWARE ENGINEER & CREATIVE THINKER
-              </p>
+              <p className="eyebrow hero-intro">SOFTWARE ENGINEER</p>
               <h1 id="hero-title">
                 <span className="title-line">Code with</span>
                 <span className="title-line">
@@ -90,9 +93,9 @@ export default function Home() {
                 </span>
               </h1>
               <p className="hero-description">
-                I’m Mohammed, a software engineer in Jeddah. I turn complex
-                ideas into thoughtful web and mobile products — from the first
-                screen to the cloud.
+                I’m Mohammed Alekhwan, a software engineer in Jeddah. I turn
+                complex ideas into thoughtful web and mobile products — from the
+                first screen to the cloud.
               </p>
               <div className="hero-ctas">
                 <a className="button button-lime magnetic" href="#work">
@@ -335,7 +338,7 @@ export default function Home() {
               <span className="serif-word lime">instinct.</span>
             </h2>
             <p className="about-lead reveal">
-              Hi, I’m Mohammed. You can call me Moe.
+              Mohammed Alekhwan — Software Engineer.
             </p>
             <p className="reveal">
               I’m a software engineer with 2+ years of experience building and
@@ -543,8 +546,13 @@ export default function Home() {
             </div>
           </div>
           <footer>
-            <a className="wordmark" href="#home" aria-label="Moe, back to home">
-              moe<span className="logo-star">✳</span>
+            <a
+              className="wordmark"
+              href="#home"
+              aria-label="Mohammed Alekhwan, back to home"
+            >
+              <span>Mohammed</span>
+              <span>Alekhwan</span>
             </a>
             <span className="copyright">
               © <span id="year">2026</span> MOHAMMED ALEKHWAN

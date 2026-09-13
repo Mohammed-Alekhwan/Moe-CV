@@ -35,7 +35,7 @@ await page.goto(baseUrl, { waitUntil: "networkidle" });
 await page.locator("#scene.ready canvas").waitFor({ timeout: 20000 });
 await page.waitForTimeout(1800);
 await page.screenshot({ path: screenshotPath("desktop-hero.png") });
-assert.equal(await page.title(), "Moe — Software Engineer & Creative Thinker");
+assert.equal(await page.title(), "Mohammed Alekhwan | Software Engineer");
 assert.equal(await page.locator("h1").count(), 1);
 
 await page.getByRole("button", { name: "Pause motion", exact: true }).click();

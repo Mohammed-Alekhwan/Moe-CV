@@ -1,4 +1,4 @@
-# Moe — Mohammed Alekhwan
+# Mohammed Alekhwan
 
 A completely rebuilt portfolio in **Next.js App Router**, React, Three.js, and GSAP.
 
