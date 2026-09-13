@@ -296,14 +296,21 @@ export default function Home() {
               <span className="section-index">02 /</span> THE PERSON BEHIND THE
               PIXELS
             </p>
-            <div className="monogram-art reveal" aria-hidden="true">
-              <div className="monogram-grid"></div>
-              <span className="monogram">
-                m<span>.</span>
-              </span>
-              <div className="monogram-label">LOGIC × IMAGINATION</div>
-              <span className="monogram-plus">+</span>
-              <div className="rotating-seal">
+            <figure className="profile-card reveal">
+              <img
+                className="profile-image"
+                src="/Moe-CV/images/mohammed-alekhwan.jpeg"
+                alt="Mohammed Alekhwan wearing glasses and a tan blazer"
+                width="900"
+                height="1600"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption className="profile-caption">
+                <span>Mohammed Alekhwan</span>
+                <span>SOFTWARE ENGINEER · JEDDAH</span>
+              </figcaption>
+              <div className="rotating-seal" aria-hidden="true">
                 <svg viewBox="0 0 120 120">
                   <defs>
                     <path
@@ -319,7 +326,7 @@ export default function Home() {
                 </svg>
                 <span>↗</span>
               </div>
-            </div>
+            </figure>
           </div>
           <div className="about-copy">
             <h2 className="reveal" id="about-title">

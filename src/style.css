@@ -836,65 +836,54 @@ h1 {
   display: flex;
   flex-direction: column;
 }
-.monogram-art {
-  aspect-ratio: 1.05;
+.profile-card {
+  aspect-ratio: 4 / 5;
   position: relative;
-  margin-top: 40px;
+  margin: 40px 0 0;
   overflow: visible;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border: 1px solid #34392b;
   background: #1a1e14;
 }
-.monogram-grid {
+.profile-image {
   position: absolute;
   inset: 0;
-  overflow: hidden;
-  background-image:
-    linear-gradient(#7279540c 1px, transparent 1px),
-    linear-gradient(90deg, #7279540c 1px, transparent 1px);
-  background-size: 36px 36px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 38%;
 }
-.monogram-grid:after {
+.profile-card:after {
   content: "";
   position: absolute;
-  inset: 8%;
-  border: 1px solid #76845126;
-  border-radius: 50%;
+  inset: 45% 0 0;
+  background: linear-gradient(transparent, #11120f45 45%, #11120fec);
+  pointer-events: none;
 }
-.monogram {
+.profile-caption {
+  position: absolute;
+  bottom: 28px;
+  left: 28px;
+  right: 82px;
+  z-index: 1;
+  display: grid;
+  gap: 7px;
+  color: #f2f2e9;
+}
+.profile-caption > span:first-child {
   font-family: var(--display);
-  font-size: clamp(155px, 23vw, 330px);
-  font-weight: 500;
-  letter-spacing: -0.1em;
-  line-height: 1;
-  color: #d9dfc4;
-  margin-left: -25px;
-  margin-top: -30px;
-  position: relative;
+  font-size: clamp(18px, 2vw, 28px);
+  letter-spacing: -0.6px;
+  line-height: 1.2;
 }
-.monogram > span {
-  color: var(--lime);
-}
-.monogram-label {
-  position: absolute;
-  bottom: 23px;
-  left: 23px;
-  font-size: 8px;
-  letter-spacing: 2px;
-  color: #a9b095;
-}
-.monogram-plus {
-  position: absolute;
-  right: 20px;
-  top: 15px;
-  font-size: 25px;
-  color: #728553;
-  font-weight: 200;
+.profile-caption > span:last-child {
+  font-size: 7px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  color: #d5ff5f;
 }
 .rotating-seal {
   position: absolute;
+  z-index: 2;
   width: 114px;
   height: 114px;
   background: var(--lime);
@@ -1757,14 +1746,15 @@ html.motion-paused {
   .about-left {
     max-width: 100%;
   }
-  .monogram-art {
+  .profile-card {
     width: calc(100% - 22px);
     max-width: 420px;
-    aspect-ratio: 1.2;
     margin-top: 30px;
   }
-  .monogram {
-    font-size: 270px;
+  .profile-caption {
+    bottom: 22px;
+    left: 20px;
+    right: 80px;
   }
   .rotating-seal {
     width: 104px;
@@ -1960,9 +1950,6 @@ html.motion-paused {
   }
   .expertise-item h3 {
     font-size: 18px;
-  }
-  .monogram {
-    font-size: 220px;
   }
   .contact-heading h2 {
     font-size: 43px;
